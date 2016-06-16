@@ -1,0 +1,20 @@
+[default]
+splunk_server=http://localhost
+host = twitter
+source = twitter_script
+sourcetype = json
+
+# create a new twitter app to stream from
+# at apps.twitter.com
+[twitter]
+CONSUMER_KEY=foobar
+CONSUMER_SECRET=foobar
+ACCESS_KEY=20492124-foobar
+ACCESS_SECRET=foobar
+TARGETS=bernie,hilary,trump
+
+# use the splunk HTTP event Collector
+# to send the events to the box/port of your choosing
+[HEC]
+HEC_TOKEN=B5EC1B67-9CDA-4B12-B15B-9ABD807D1DE4
+HEC_PORT=8088
