@@ -33,5 +33,7 @@ Optionally, you can also set the Splunk metadata:
 If you don't set the metadata, the defaults will be applied from when you setup
 the HEC as a data input.
 
+Finally, just run it as a script, no arguments.
+
 # License
 MIT
